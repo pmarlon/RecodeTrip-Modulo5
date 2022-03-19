@@ -55,10 +55,10 @@ export default function Index() {
             </thead>
             <tbody>
               {localidades.map((localidade) => (
-                <tr className="text-white tr-hover" key={localidade.id_destino}>
-                  <td className="text-white">{localidade.id_destino}</td>
-                  <td className="text-white">{localidade.localidade}</td>
-                  <td className="text-white">{localidade.estado}</td>
+                <tr className="text-dark tr-hover" key={localidade.id_destino}>
+                  <td className="text-dark">{localidade.id_destino}</td>
+                  <td className="text-dark">{localidade.localidade}</td>
+                  <td className="text-dark">{localidade.estado}</td>
                   <td className="d-flex">
                     <Link
                       to={`/Destinos-Update/${localidade.id_destino}`}

@@ -1,7 +1,11 @@
 html,body {
   color: var(--color1);
+
 }
 
+.container {
+  padding: 10%;
+}
 
 .btn-sakura {
   background: var(--color2);

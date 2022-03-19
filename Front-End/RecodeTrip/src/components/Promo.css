@@ -1,0 +1,11 @@
+.cards {
+    margin:5% 0 2% 10%;
+    padding:5%;
+}
+.cards .card {
+    margin-right: 5%;
+}
+
+.card img {
+    padding-top: 10px;
+}

@@ -3,10 +3,11 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Nav, Navbar } from 'react-bootstrap'
 
-import Home from './Pages/Home'
-// import Contato from './components/Contato'
-// import Destinos from './components/Destinos'
-// import Promo from './components/Promo'
+import Home from './components/Home'
+import Contato from './components/Contato'
+import Destinos from './Pages/Destino'
+import DestinosCreate from './Pages/Destino/Create'
+import Promo from './components/Promo'
 
 import { BrowserRouter as Router, 
   Routes, 
@@ -47,6 +48,8 @@ const App = () => {
 				<Route path="/" element={<Home />} />
 				<Route path="/contato" element={<Contato />} />
         <Route path="/destinos" element={<Destinos />} />
+        <Route path="/Destinos-Create" element={<DestinosCreate />} />
+        <Route path="/Destinos-Update/:id" element={<DestinosCreate />} />
         <Route path="/promocoes" element={<Promo />} />
 			</Routes>
       <footer className="footer text-muted">
